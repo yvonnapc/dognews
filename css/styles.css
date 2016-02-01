@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: #ECCC72;
+  text-align: center;
+  color: #grey;
+  margin-left: 0;
+}
+
+.dogImage img {
+  max-width: 80%;
+  /*max-height: 400px;*/
+}
