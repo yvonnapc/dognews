@@ -1,0 +1,29 @@
+/*#myCarousel {
+  margin-bottom: 550px;
+}*/
+html {
+  cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
+}
+body {
+  background-color: gray;
+  font-family: 'Dosis', sans-serif;
+  cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
+}
+.headpic {
+  max-height: 550px;
+  margin-top: 50px;
+}
+.jumbotron {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  padding: 15px;
+}
+.rounded {
+  border-radius:10px;
+}
+a {
+  cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
+}
+a:hover { cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
+}
