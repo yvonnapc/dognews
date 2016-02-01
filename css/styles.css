@@ -7,6 +7,7 @@ html {
 body {
   background-color: gray;
   font-family: 'Dosis', sans-serif;
+  font-size: 17px;
   cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
 }
 .headpic {
