@@ -2,6 +2,7 @@ html {
   cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
 }
 body {
+  background-image: url("../img/wood.jpg");
   background-color: #D3D3D3;
   font-family: 'Dosis', sans-serif;
   font-size: 17px;
