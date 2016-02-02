@@ -44,10 +44,10 @@ footer {
   padding-bottom: 8px;
   margin-top: 8px;
 }
-.readMoreTravel, .readMoreHikes, .readMoreDogFlu, .readMoreDogToy {
+.readMoreArticle, .readMoreHikes {
   display: none;
 }
-.travelBorder, .dogFlu, .dogToyz {
+.newsArticle {
   border: 2px solid;
   padding: 10px;
   border-radius:10px;

@@ -35,24 +35,13 @@ console.log(new dogPark(offLeash, doggieBags, fenced, parkSize));
     event.preventDefault();
   });
 
-  $('a.readMore').click(function(event) {
+  $('a.readArticle').click(function(event) {
     event.preventDefault(); /* prevent the a from changing the url */
-    $('.readMoreTravel').toggle(); /* show the .more_text span */
-
+    $('.readMoreArticle').toggle(); /* show the .more_text span */
   });
+
   $('a.readMoreHike').click(function(event) {
     event.preventDefault(); /* prevent the a from changing the url */
     $('.readMoreHikes').toggle(); /* show the .more_text span */
-
-  });
-  $('a.readFlu').click(function(event) {
-    event.preventDefault(); /* prevent the a from changing the url */
-    $('.readMoreDogFlu').toggle(); /* show the .more_text span */
-
-  });
-  $('a.readToy').click(function(event) {
-    event.preventDefault(); /* prevent the a from changing the url */
-    $('.readMoreDogToy').toggle(); /* show the .more_text span */
-
   });
 });
