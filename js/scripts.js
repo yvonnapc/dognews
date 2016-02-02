@@ -50,4 +50,9 @@ console.log(new dogPark(offLeash, doggieBags, fenced, parkSize));
     $('.readMoreDogFlu').toggle(); /* show the .more_text span */
 
   });
+  $('a.readToy').click(function(event) {
+    event.preventDefault(); /* prevent the a from changing the url */
+    $('.readMoreDogToy').toggle(); /* show the .more_text span */
+
+  });
 });

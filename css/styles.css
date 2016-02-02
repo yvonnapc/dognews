@@ -43,10 +43,10 @@ footer {
   padding-bottom: 8px;
   margin-top: 8px;
 }
-.readMoreTravel, .readMoreHikes, .readMoreDogFlu {
+.readMoreTravel, .readMoreHikes, .readMoreDogFlu, .readMoreDogToy {
   display: none;
 }
-.travelBorder, .dogFlu {
+.travelBorder, .dogFlu, .dogToyz {
   border: 2px solid;
   padding: 10px;
   border-radius:10px;
@@ -84,7 +84,26 @@ img {
   background-color: white;
   padding: 60px;
 }
+.slidersduce2 {
+  text-align: left;
+  background-color: white;
+  padding: 40px;
+  padding-left: 120px;
+}
+.toysPar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .foodCarousel {
   margin-bottom: 10px;
   border-radius: 10px;
+}
+.humane {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.animalHumane {
+  float:left;
+  margin-left: 210px;
 }
