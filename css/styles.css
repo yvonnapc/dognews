@@ -32,17 +32,6 @@ footer {
   padding-top: 20px;
   color: white;
 }
-.dogImage img {
-  max-width: 80%;
-  /*max-height: 400px;*/
-}
-
-.pull-right {
-  border: black solid 2px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 8px;
-}
 
 /*YVONNA SIMON CSS*/
 .backgroundBorder {
@@ -56,4 +45,28 @@ footer {
 #yellow p {
   background-color: yellow;
   font-size: 12px;
+}
+
+.map {
+  padding-left: 8px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+}
+
+.box {
+  padding-left: 75px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+}
+
+.dogImage img {
+  max-width: 60%;
+  max-height: 400px;
+}
+
+.parkTitle {
+  text-decoration: underline;
+  
 }
