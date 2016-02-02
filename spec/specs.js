@@ -1,21 +1,10 @@
-describe('leapYear', function() {
-  it("is false for a year that is not divisible by 4, 100, or 400", function() {
-    expect(leapYear(1800)).to.equal(false);
-  });
-
-  it("is true for years divisible by 4", function() {
-    expect(leapYear(2004)).to.equal(true);
-  });
-
-  it("is false if years is a negative number", function() {
-    expect(leapYear(-2)).to.equal(false);
-  });
-
-  it("is false if years is a letter", function() {
-    expect(leapYear('a')).to.equal(false);
-  });
-  it("is false if years is a symbol", function() {
-    expect(leapYear('@')).to.equal(false);
+describe('dogPark', function(){
+  it("will describe a park based on its features", function(){
+    var testPark = new dogPark("offLeash", "doggieBags", "fenced", "Large");
+    expect(testPark.offLeash).to.equal("offLeash");
+    expect(testPark.doggieBags).to.equal("doggieBags");
+    expect(testPark.fenced).to.equal("fenced");
+    expect(testPark.parkSize).to.equal("Large");
   });
 
 });
