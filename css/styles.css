@@ -47,5 +47,8 @@ footer {
 /*YVONNA SIMON CSS*/
 .backgroundBorder {
   background-color: yellow;
+}
 
+.glyph1, .glyph2, .glyph3 {
+  display: none;
 }
