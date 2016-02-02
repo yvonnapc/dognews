@@ -1,14 +1,37 @@
-.footer {
-  position: fixed;
-  bottom: 0px;
-  height: 30px;
-  width: 100%;
-  background: #ECCC72;
-  text-align: center;
-  color: #grey;
-  margin-left: 0;
+html {
+  cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
 }
-
+body {
+  background-color: #D3D3D3;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
+}
+.headpic {
+  max-height: 550px;
+  margin-top: 50px;
+}
+.jumbotron {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  padding: 15px;
+}
+.rounded {
+  border-radius:10px;
+}
+a {
+  cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
+}
+a:hover { cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  color: white;
+}
 .dogImage img {
   max-width: 80%;
   /*max-height: 400px;*/
@@ -19,8 +42,4 @@
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 8px;
-}
-
-body {
-  margin-bottom: 20%;
 }
