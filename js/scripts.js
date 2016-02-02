@@ -7,35 +7,35 @@ function dogPark(offLeash, doggieBags, fenced, parkSize) {
 
 dogPark.prototype.search = function() {
   if (this.parkSize === "Large") {
-    return $(".large").toggleClass("backgroundBorder")
+    return $(".large").toggleClass("backgroundBorder");
   } else if (this.parkSize === "Medium") {
-    return $(".medium").toggleClass("backgroundBorder")
+    return $(".medium").toggleClass("backgroundBorder");
   } else if (this.parkSize === "Small") {
-    return $(".small").toggleClass("backgroundBorder")
+    return $(".small").toggleClass("backgroundBorder");
   }
 }
 
 dogPark.prototype.noLeash = function() {
   if (this.offLeash === "true") {
-    return $(".glyph1").show(".glyph1")
+    return $(".glyph1").show(".glyph1");
   }
 }
 
 dogPark.prototype.bringBags = function() {
   if (this.doggieBags === "true") {
-    return $(".glyph2").show(".glyph2")
+    return $(".glyph2").show(".glyph2");
   }
 }
 
 dogPark.prototype.noFenced = function() {
   if (this.fenced === "true") {
-    return $(".glyph3").show(".glyph3")
+    return $(".glyph3").show(".glyph3");
   }
 }
 /*-------- business logic---------*/
 $(document).ready(function() {
   $("form#parkForm").submit(function(event) {
-    $(".backgroundBorder").toggleClass("backgroundBorder")
+    $(".backgroundBorder").toggleClass("backgroundBorder");
     $(".glyph1").hide();
     $(".glyph2").hide();
     $(".glyph3").hide();
