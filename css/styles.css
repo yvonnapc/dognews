@@ -52,3 +52,8 @@ footer {
 .glyph1, .glyph2, .glyph3 {
   display: none;
 }
+
+#yellow p {
+  background-color: yellow;
+  font-size: 12px;
+}
