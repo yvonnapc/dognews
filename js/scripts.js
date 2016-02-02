@@ -47,7 +47,7 @@ dogPark.prototype.noFenced = function() {
   }
 }
 
-// var size_pizza = $('input[name="feature"]').is(":checked");
+
 
 /*-------- business ---------*/
 $(document).ready(function() {
