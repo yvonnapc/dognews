@@ -40,4 +40,9 @@ console.log(new dogPark(offLeash, doggieBags, fenced, parkSize));
     $('.readMoreTravel').toggle(); /* show the .more_text span */
 
   });
+  $('a.readMoreHike').click(function(event) {
+    event.preventDefault(); /* prevent the a from changing the url */
+    $('.readMoreHikes').toggle(); /* show the .more_text span */
+
+  });
 });

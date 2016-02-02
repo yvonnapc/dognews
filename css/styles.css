@@ -43,6 +43,37 @@ footer {
   padding-bottom: 8px;
   margin-top: 8px;
 }
-.readMoreTravel {
+.readMoreTravel, .readMoreHikes {
   display: none;
+}
+.travelBorder {
+  border: 2px solid;
+  padding: 10px;
+  border-radius:10px;
+  background-color: #ededed;
+}
+.hikeBorder {
+  margin-top: 20px;
+  border: 2px solid;
+  padding: 10px;
+  border-radius:10px;
+  background-color: #ededed;
+}
+.endArticle {
+  margin-top: 20px;
+  font-size: 20px;
+}
+h4 {
+  font-weight: bold;
+}
+img {
+  float: right;
+  padding-left: 5px;
+  border-radius:10px;
+}
+.sideArticles {
+  border: 2px dotted black;
+  border-radius:10px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
