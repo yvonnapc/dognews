@@ -7,14 +7,12 @@ function dogPark(offLeash, doggieBags, fenced, parkSize) {
 
 dogPark.prototype.search = function() {
   if (this.parkSize === "Large") {
-    return $(".large").append("Large")
+    return $(".large").toggleClass("backgroundBorder")
   } else if (this.parkSize === "Medium") {
-    return $(".medium").append("Medium")
+    return $(".medium").toggleClass("backgroundBorder")
   } else if (this.parkSize === "Small") {
-    return $(".small").append("Small")
-  } else {
-
-  }
+    return $(".small").toggleClass("backgroundBorder")
+  } 
 }
 
 var offLeash = false;
@@ -23,7 +21,7 @@ var fenced = false;
 
 $(document).ready(function() {
   $("form#parkForm").submit(function(event) {
-
+    $(".backgroundBorder").toggleClass("backgroundBorder")
     // $(".offLeash").hide();
     var offLeash = $('input[name=feature]:checked').val();
     var doggieBags = $('input[name=feature]:checked').val();
