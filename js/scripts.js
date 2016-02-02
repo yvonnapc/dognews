@@ -54,4 +54,14 @@ $(document).ready(function() {
     console.log(new dogPark(offLeash, doggieBags, fenced, parkSize));
     event.preventDefault();
   });
+
+  $('a.readArticle').click(function(event) {
+    event.preventDefault(); /* prevent the a from changing the url */
+    $('.readMoreArticle').toggle(); /* show the .more_text span */
+  });
+
+  $('a.readMoreHike').click(function(event) {
+    event.preventDefault(); /* prevent the a from changing the url */
+    $('.readMoreHikes').toggle(); /* show the .more_text span */
+  });
 });
