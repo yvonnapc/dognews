@@ -15,20 +15,6 @@ dogPark.prototype.search = function() {
   }
 }
 
-var offLeash = false;
-var doggyBags = false;
-var fenced = false;
-
-// dogPark.prototype.offLeash = function() {
-//   if (this.offLeash === "true") {
-//     $(".offLeash").append("<span class='glyphicon glyphicon-tree-deciduous'></span>")
-//   } else if (this.doggieBags === "true") {
-//     $(".dogBag").append("<span class='glyphicon glyphicon-cloud'></span>")
-//   } else if (this.fenced === "true") {
-//     $(".noFence").append("<span class='glyphicon glyphicon-link'></span>")
-//   }
-// }
-/* tree/offleash=glyph1, cloud/dogbag=glyph2, link/fenced=glyph3 */
 dogPark.prototype.noLeash = function() {
   if (this.offLeash === "true") {
     return $(".glyph1").show(".glyph1")
@@ -46,28 +32,26 @@ dogPark.prototype.noFenced = function() {
     return $(".glyph3").show(".glyph3")
   }
 }
-
-
-
-/*-------- business ---------*/
+/*-------- business logic---------*/
 $(document).ready(function() {
   $("form#parkForm").submit(function(event) {
     $(".backgroundBorder").toggleClass("backgroundBorder")
-
     $(".glyph1").hide();
     $(".glyph2").hide();
     $(".glyph3").hide();
+
     var offLeash = $('input[name="offLeash"]:checked').val();
     var doggieBags = $('input[name="doggieBags"]:checked').val();
     var fenced = $('input[name="fenced"]:checked').val();
     var parkSize = $("select#parkSize").val();
     var parkProfile = new dogPark(offLeash, doggieBags, fenced, parkSize);
+
     parkProfile.search();
     parkProfile.noLeash();
     parkProfile.bringBags();
     parkProfile.noFenced();
 
-console.log(new dogPark(offLeash, doggieBags, fenced, parkSize));
+    console.log(new dogPark(offLeash, doggieBags, fenced, parkSize));
     event.preventDefault();
   });
 });
