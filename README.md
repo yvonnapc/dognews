@@ -1,16 +1,16 @@
-# _{Application Name}_
+# _Portland Pets_
 
-#### _{Brief description of application}, {Date of current version}_
+#### A reference webpage for dog owners in Portland, February 5, 2016
 
 #### By _**{List of contributors}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+This application serves as a platform for pet owners to reference for various topics. We've included a compilation of dog parks which can be filtered based on certain features. 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
+* 
 * _to list setup instructions_
 * _in a simple_
 * _easy-to-understand_
@@ -20,18 +20,23 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+No current known bugs.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Any questions or concers can be addressed to us through our GitHub.
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* Bootstrap
+* jQuery
+* JavaScript
+* CSS
+* HTML
+* Google Maps API
 
 ### License
 
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2016 |   Epicodus   |   GROUPNAMESHERE
