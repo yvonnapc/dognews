@@ -56,12 +56,12 @@ $(document).ready(function() {
   });
 
   $('a.readArticle').click(function(event) {
-    event.preventDefault(); /* prevent the a from changing the url */
-    $('.readMoreArticle').toggle(); /* show the .more_text span */
+    event.preventDefault();
+    $('.readMoreArticle').fadeToggle();
   });
 
   $('a.readMoreHike').click(function(event) {
-    event.preventDefault(); /* prevent the a from changing the url */
-    $('.readMoreHikes').toggle(); /* show the .more_text span */
+    event.preventDefault();
+    $('.readMoreHikes').fadeToggle();
   });
 });
