@@ -2,29 +2,27 @@
 
 #### A reference webpage for dog owners in Portland, February 5, 2016
 
-#### By _**{List of contributors}**_
+#### By: Josh Overly, Sara Wagner, Simon Temple, Yvonna Contreras
 
 ## Description
 
-This application serves as a platform for pet owners to reference for various topics. We've included a compilation of dog parks which can be filtered based on certain features. 
+This application serves as a platform for pet owners to reference for various topics, including Health, Entertainment, Social, and Education. The webpage includes thorough front-end and back-end development, fulfilling the requirements for Epicodus Week 5:Group Project.
 
 ## Setup/Installation Requirements
 
-* 
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* None required, simply open index.html with Chrome browser: https://github.com/yvonnapc/dognews
 
 ## Known Bugs
 
-No current known bugs.
+N/A
 
 ## Support and contact details
 
-Any questions or concers can be addressed to us through our GitHub.
+Any questions or concerns can be addressed to us through GitHub:
+* https://github.com/stemple87
+* https://github.com/yvonnapc
+* https://github.com/joshoverly
+* https://github.com/swagner23q
 
 ## Technologies Used
 
@@ -37,6 +35,4 @@ Any questions or concers can be addressed to us through our GitHub.
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 |   Epicodus   |   GROUPNAMESHERE
+Copyright (c) 2016 |   Epicodus   |   J.O.  S.W  S.T  Y.C  

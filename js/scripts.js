@@ -32,7 +32,7 @@ dogPark.prototype.noFenced = function() {
     return $(".glyph3").show(".glyph3");
   }
 }
-/*-------- business logic---------*/
+
 $(document).ready(function() {
   $("form#parkForm").submit(function(event) {
     $(".backgroundBorder").toggleClass("backgroundBorder");
@@ -51,10 +51,9 @@ $(document).ready(function() {
     parkProfile.bringBags();
     parkProfile.noFenced();
 
-    console.log(new dogPark(offLeash, doggieBags, fenced, parkSize));
     event.preventDefault();
   });
-
+  
   $('a.readArticle').click(function(event) {
     event.preventDefault();
     $('.readMoreArticle').fadeToggle();
@@ -63,5 +62,11 @@ $(document).ready(function() {
   $('a.readMoreHike').click(function(event) {
     event.preventDefault();
     $('.readMoreHikes').fadeToggle();
+  });
+
+  $('form#emailInput').submit(function(event) {
+    event.preventDefault();
+    var emailAddress = $('input#myEmail').val();
+    alert("You will now recieve dogNews emails at " + emailAddress + ".");
   });
 });
