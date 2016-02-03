@@ -8,9 +8,12 @@ body {
   font-size: 17px;
   cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
 }
-.navbar-brand {
-  margin-top: -10px;
-  margin-left: 20px;
+h3 {
+  text-shadow: 2px 2px 5px green;
+}
+.logo {
+  margin-top: -12px;
+  margin-right: 20px;
 }
 .headpic {
   max-height: 550px;
@@ -77,6 +80,7 @@ footer {
 .endArticle {
   margin-top: 20px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 h4 {
@@ -88,12 +92,16 @@ h4 {
   padding-left: 5px;
   border-radius:10px;
 }
+
 .sideArticles, .vetlinks, .foodRecall {
   border: 2px dotted black;
   border-radius:10px;
   padding: 10px;
   margin-bottom: 10px;
   background-color: #e4e4e4;
+}
+.sideNews {
+  text-shadow: none;
 }
 .slidersduce {
   background-color: white;
@@ -113,6 +121,7 @@ h4 {
 .toysPar {
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 20px;
 }
 .foodCarousel {
   margin-bottom: 10px;
