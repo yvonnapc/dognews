@@ -8,6 +8,10 @@ body {
   font-size: 17px;
   cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important;
 }
+.navbar-brand {
+  margin-top: -10px;
+  margin-left: 20px;
+}
 .headpic {
   max-height: 550px;
   margin-top: 50px;
