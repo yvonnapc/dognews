@@ -117,8 +117,9 @@ img {
 .animalHumane {
   float:left;
   margin-left: 210px;
+}
 
-.box {
+.infoBox {
   padding-left: 75px;
   padding-top: 12px;
   padding-bottom: 8px;
@@ -132,3 +133,7 @@ img {
 
 .parkTitle {
   text-decoration: underline;
+
+.lead {
+  font-weight: bold;
+}

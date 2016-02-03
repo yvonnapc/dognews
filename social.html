@@ -101,8 +101,7 @@
             </div>
           </div>
           <div class="dogFood">
-            <h4>Want to find the perfect park? Search here!</h4>
-            <p></p>
+            <h3 class="parkLead lead"><strong>Want to find the perfect park? Search here!</strong></h3>
 
 
         </div>
@@ -117,6 +116,138 @@
           </div>
           </div>
         </div>
+        <form id="parkForm">
+          <div class="row">
+            <div class="col-lg-6 map">
+              <iframe src="https://www.google.com/maps/d/embed?mid=z8Od0muvqe0k.kJHJpg9DmJeo" width="600" height="300"></iframe>
+              <h4><a href="https://www.google.com/maps/d/edit?hl=en&authuser=0&mid=z8Od0muvqe0k.kJHJpg9DmJeo">Click</a> to open Map</h4>
+            </div>
+            <div class="col-lg-6 pull-right infoBox">
+              <h4>Narrow by feature:</h4>
+              <div class="checkbox">
+                <label>
+                  <input name="offLeash" type="checkbox" value="true">
+                  Off-leash  <span class="glyphicon glyphicon-tree-deciduous"></span>
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input name="doggieBags" type="checkbox" value="true">
+                  Doggy bags  <span class="glyphicon glyphicon-cloud"></span>
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input name="fenced" type="checkbox" value="true">
+                  Fenced   <span class="glyphicon glyphicon-link"></span>
+                </label>
+              </div>
+
+              <div class= "form-group">
+                <label for="parkSize">Select Size</label>
+                <select id="parkSize">
+                  <option value="">Select a size</option>
+                  <option value="Small">Small</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
+                </select>
+                <span id="yellow"><p>Park size indicated with yellow background</p></span>
+                <button type="submit" id="button" class="btn btn-primary">Click here to narrow park search</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col-lg-4 dogImage offLeash dogBag noFence small">
+            <h4 class="parkTitle">Alberta Park</h4>
+            <p><a href="http://maps.google.com/?q=Alberta Park, Northeast Killingsworth Street, Portland, OR 97211">NE 22nd Ave, Portland</a></p>
+            <img src="img/alberta.jpg">
+            <p><strong>Hours:</strong> 5am - Midnight</p>
+            <p><strong>About:</strong>Alberta Park is a 16-acre park in Portland, OR with a designated 1.3 acre off-leash area for dogs on the east side of the park. Plastic bag dispensers and fresh water are available at the park.
+            </p>
+            <span class="glyphicon glyphicon-cloud glyph2"></span>  <span class="glyphicon glyphicon-tree-deciduous glyph1"></span>
+          </div>
+          <div class="col-lg-4 dogImage offLeash noFence medium">
+            <h4 class="parkTitle">Overlook Park</h4>
+            <p><a href="http://maps.google.com/?q=1599 N Fremont St, Portland">1599 N Fremont St, Portland</a></p>
+            <img src="img/overlook.png">
+            <p><strong>Hours:</strong> Sunrise - Sunset</p>
+            <p><strong>About:</strong> Bring your pet to play in the unfenced off-leash area in the south end of this beautiful public park with gorgeous views of the city. Don't forget water and waste bags!
+            </p>
+            <span class="glyphicon glyphicon-tree-deciduous glyph1"></span>
+          </div>
+          <div class="col-lg-4 dogImage offLeash small">
+            <h4 class="parkTitle">Wallace Dog Park</h4>
+            <p><a href="http://maps.google.com/?q=NW 25th Ave, Portland, OR 97210">NW 25th Ave, Portland, OR 97210</a></p>
+            <img src="img/wallace.jpg">
+            <p><strong>Hours:</strong> Sunrise - Sunset</p>
+            <p><strong>About:</strong> Bring your pet for some off-leash fun in the fenced dog run in the northeast area of this lovely park. Water available nearby but bring bowls and waste bags.
+            </p>
+            <span class="glyphicon glyphicon-tree-deciduous glyph1"></span> <span class="glyphicon glyphicon-link glyph3"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 dogImage offLeash dogBag noFence small">
+            <h4 class="parkTitle">Couch Park</h4>
+            <p><a href="http://maps.google.com/?q=NW 19th Ave & Glisan, Portland, OR 97209">NW 19th Ave& Glisan, Portland, OR 97209</a></p>
+            <img src="img/couch.jpg">
+            <p><strong>Hours:</strong> 5am - Midnight</p>
+            <p><strong>About:</strong>Couch Park is a small, 2-acre park in Portland, featuring an off-leash dog play area. This pet-friendly park has poop bags and fresh water available for your dogs.
+            </p>
+            <span class="glyphicon glyphicon-cloud glyph2"></span> <span class="glyphicon glyphicon-tree-deciduous glyph1"></span>
+          </div>
+
+          <div class="col-lg-4 dogImage offLeash noFence small">
+            <h4 class="parkTitle">Wilshire Park</h4>
+            <p><a href="http://maps.google.com/?q=4305 NE 35th Pl, Portland, OR 97211">NE 36th Ave, Portland, OR 97211</a></p>
+            <img src="img/wilshire.jpg">
+            <p><strong>Hours:</strong> 5am - Midnight</p>
+            <p><strong>About:</strong> Wilshire Park in Portland, OR is pet-friendly. The 14-acre park has an off-leash area of just over 1 acre that allows your dogs to run free. The off-leash area is in the northeast corner of the park. Bring poop bags and fresh water for your pooch.
+            </p>
+            <span class="glyphicon glyphicon-tree-deciduous glyph1"></span>
+          </div>
+
+          <div class="col-lg-4 dogImage offLeash noFence small">
+            <h4 class="parkTitle">Sellwood Park</h4>
+            <p><a href="http://maps.google.com/?q=SE Oaks Park Way, Portland, OR 97202">SE Oaks Park Way, Portland, OR 97202</a></p>
+            <img src="img/sellwood.jpg">
+            <p><strong>Hours:</strong> 5am - Midnight</p>
+            <p><strong>About:</strong> Sellwood Riverfront Park in Portland, OR is pet-friendly. The park features a 1.5-acre off-leash area that is a great place for dogs to play. Bring poop bags and water for your pets, as they are not provided on site.
+            </p>
+            <span class="glyphicon glyphicon-tree-deciduous glyph1"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 dogImage offLeash noFence small">
+            <h4 class="parkTitle">Cathedral Park</h4>
+            <p><a href="http://maps.google.com/?q=8676 N Crawford St, Portland, OR 97203">8676 N Crawford St</a></p>
+            <img src="img/cathedral.jpg">
+            <p><strong>Hours:</strong> 5am - Midnight</p>
+            <p><strong>About:</strong> Cathedral Park is a pet-friendly park in Portland, OR. The park features a half-acre off-leash area for dogs and is located underneath the St. John's bridge and is adjacent to the Willamette River. Water is available, but pet owners should bring their own poop bags.
+            </p>
+            <span class="glyphicon glyphicon-tree-deciduous glyph1"></span>
+          </div>
+          <div class="col-lg-4 dogImage noFence large">
+            <h4 class="parkTitle">Forest Park</h4>
+            <p><a href="http://maps.google.com/?q=4040 NW Thurman, Portland, OR 97210">4040 NW Thurman, Portland, OR 97210</a></p>
+            <img src="img/forest.jpg">
+            <p><strong>Hours:</strong> Sunrise - Sunset</p>
+            <p>Forest Park Wildwood Trail is a moderately easy, 42 mile hike that will take about 2 days to complete with Fido. Take a retreat to this wilderness hike that is within Portland city limits. Using road crossings as a turnaround point can shorten the trail. Please note that dogs must be on leash.
+            </p>
+          </div>
+          <div class="col-lg-4 dogImage offLeash dogBag large">
+            <h4 class="parkTitle">Gabriel Dog Park</h4>
+            <p><a href="http://maps.google.com/?q=SW 45th Ave & SW Vermont St, Portland, OR 97219">SW 45th Ave & SW Vermont St</a></p>
+            <img src="img/gabriel.jpg">
+            <p><strong>Hours:</strong> 5am - Midnight</p>
+            <p>One of Portland's largest parks at over 90 acres, Gabriel Park features a 1.5-acre off-leash dog park that is a great place to bring Fido for a morning walk or afternoon run. The area is fenced and has fresh water and poop bags available for your pets.
+            </p>
+            <span class="glyphicon glyphicon-cloud glyph2"></span> <span class="glyphicon glyphicon-tree-deciduous glyph1"></span>
+          </div>
+        </div>
+      </form>
       </div>
       </div>
     </div>
