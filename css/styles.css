@@ -92,10 +92,14 @@ h4 {
   background-color: #e4e4e4;
 }
 .slidersduce {
-  text-align: center;
   background-color: white;
   padding: 60px;
 }
+.slidersduce img {
+  float:right;
+  padding-left: 10px;
+}
+
 .slidersduce2 {
   text-align: left;
   background-color: white;
