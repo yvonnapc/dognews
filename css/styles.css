@@ -57,11 +57,13 @@ footer {
   margin-top: 20px;
   font-size: 20px;
 }
+
 .frontImg img {
   float: right;
   padding-left: 5px;
   border-radius:10px;
 }
+
 .sideArticles, .vetlinks, .foodRecall {
   border: 2px dotted black;
   border-radius:10px;
@@ -128,6 +130,7 @@ footer {
 h4 {
   font-weight: bold;
 }
+
 img {
   float: right;
   padding-left: 5px;
@@ -141,7 +144,7 @@ img {
   margin-top: 8px;
 }
 
-.dogImage {
+.dogImage img {
   max-width: 60%;
   max-height: 400px;
 }
