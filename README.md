@@ -10,7 +10,7 @@ This application serves as a platform for pet owners to reference for various to
 
 ## Setup/Installation Requirements
 
-* None required, simply open index.html with Chrome browser: https://github.com/yvonnapc/dognews
+* None required, simply open index.html with Chrome browser: https://github.com/yvonnapc/intro-finalproject
 
 ## Known Bugs
 
